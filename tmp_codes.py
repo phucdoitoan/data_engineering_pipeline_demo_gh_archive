@@ -15,7 +15,7 @@ gcloud composer environments run gh-composer-env     --location europe-west1 dag
 
 gcloud storage cp pyspark_job.py gs://gh-data-lake-bucket-crucial-quarter-470111-v9/code/
 
-gcloud storage cp ../data_ingestion.py gs://gh-composer-bucket-crucial-quarter-470111-v9/dags
+gcloud storage cp ./data_ingestion.py gs://gh-composer-bucket-crucial-quarter-470111-v9/dags
 
 
 

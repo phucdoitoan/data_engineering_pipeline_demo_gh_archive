@@ -9,7 +9,7 @@
 resource "google_storage_bucket_object" "dag_file" {
   name   = "dags/data_ingestion.py"
   bucket = google_storage_bucket.gh-composer-bucket.name
-  source = "../data_ingestion.py"
+  source = "./data_ingestion.py"
 }
 
 resource "google_storage_bucket_object" "pyspark_job_file" {
