@@ -77,7 +77,9 @@ All the information of a composer env (env vars, env config, airflow states, run
 
 These saved snapshots can be load back again to a newly created Composer environment.
 
-This is very convenient as we can completely destroy all computing resources on GCP (composer/airflow, dataproc cluster, vm instances) and only keep necessary data in GSC buckets / Bigquery dataset. Only when need to run the pipeline, we can create the compute resource again and restored all previous state with snapshots. This helps __reduce cost__.
+This is very convenient as we can completely destroy all computing resources on GCP (composer/airflow, dataproc cluster, vm instances) and only keep necessary data in GSC buckets / Bigquery dataset. Only when need to run the pipeline, we can create the compute resource again and restored all previous state with snapshots. This helps __reduce cost__ since most of the costs are from Compute Engine and Cloud Composer.
+
+![Cost Details Example](images/cost_details_example.png)
 
 
 ## Terraform
