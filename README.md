@@ -110,3 +110,10 @@ Here
 ## Credentials as env vars in .envrc
 
 Set credentials to corresponding env var in the .envrc file.
+
+
+## Google Looder Studio Dashboard
+
+Access the dashboard here: https://lookerstudio.google.com/reporting/6193332a-c3f5-4337-87b3-4959615b39db/page/rpHbF
+
+![Github Archive Activity Looker Dashboard](images/looker_dashboard.png)
