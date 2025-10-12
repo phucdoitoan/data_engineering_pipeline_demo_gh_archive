@@ -6,7 +6,6 @@
 
 [![Demo Video](https://markdown-videos-api.jorgenkh.no/youtube/5VSBTFh32kw)](https://youtu.be/5VSBTFh32kw)
 
-[![](https://markdown-videos-api.jorgenkh.no/youtube/8tjWE0zpOA4)](https://youtu.be/8tjWE0zpOA4)
 
 ## Pipeline Components
 
