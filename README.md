@@ -4,7 +4,7 @@
 
 ## Demo Video
 
-<iframe width="560" height="315" src="https://youtu.be/5VSBTFh32kw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo Video](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FNp6QmmcgLCs)](https://youtu.be/5VSBTFh32kw)
 
 ## Pipeline Components
 
