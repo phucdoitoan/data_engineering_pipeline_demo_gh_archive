@@ -2,6 +2,10 @@
 
 ![Data Pipeline Diagram](<images/data_pipeline_diagram.png>)
 
+## Demo Video
+
+<iframe width="560" height="315" src="https://youtu.be/5VSBTFh32kw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Pipeline Components
 
 Components: <br>
