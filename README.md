@@ -107,15 +107,37 @@ The necessary resources for each component of the pipeline are defined in corres
 
 ## Dataproc / Pyspark job
 
-Here
+TODOs
 
 ## Composer / Airflow DAGs
 
-Here
+TODOs
 
 ## Credentials as env vars in .envrc
 
 Set credentials to corresponding env var in the .envrc file.
+
+
+```
+# terraform IAM credentials to access GCP project
+export GOOGLE_PROJECT=""
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.google/keys/terraform_gcp.json"
+
+
+# terraform: vars inferable within tf files
+export TF_VAR_project_id=$GOOGLE_PROJECT
+
+
+# DBT
+export TF_VAR_dbt_account_id=""
+export TF_VAR_dbt_token=""
+export TF_VAR_dbt_access_url=""  # something like ab123.us1.dbt.com
+export TF_VAR_dbt_host_url="https://$TF_VAR_dbt_access_url/api"
+
+# DBT connection to Bigquery - (Defined in the GCP connection key file: terraform_gcp.json)
+export TF_VAR_dbt_bigquery_private_key=""
+export TF_VAR_dbt_bigquery_private_key_id=""
+```
 
 
 ## Google Looder Studio Dashboard
