@@ -10,8 +10,9 @@ dags trigger -- --dag-id GH_Archive_data_ingestion \
     --dry-run
 
 
-gcloud composer environments run gh-composer-env     --location europe-west1 dags trigger -- GH_Archive_data_ingestion     --exec-date 2015-01-01
+gcloud composer environments run gh-composer-env     --location europe-west1 dags trigger -- GH_Archive_data_ingestion     --exec-date 2025-10-09
 
+gcloud composer environments run gh-composer-env     --location europe-west1 tasks clear -- GH_Archive_data_ingestion     --start-date 2025-10-09 --end-date 2025-10-09
 
 gcloud storage cp pyspark_job.py gs://gh-data-lake-bucket-crucial-quarter-470111-v9/code/
 

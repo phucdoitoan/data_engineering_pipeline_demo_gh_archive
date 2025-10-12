@@ -96,7 +96,7 @@ with DAG(
     #schedule="@daily",
     schedule="59 23 * * *",  # schedule at the end of each day, i.e. 23:59:00 UTC time
     catchup=False,
-    max_active_runs=4
+    max_active_runs=1
 ) as dag:
     
     configure_download_url_task = PythonOperator(
