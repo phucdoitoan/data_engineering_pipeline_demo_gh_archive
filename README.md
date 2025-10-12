@@ -6,6 +6,8 @@
 
 [![Watch the video](https://img.youtube.com/vi/5VSBTFh32kw/0.jpg)](https://youtu.be/5VSBTFh32kw)
 
+[![](https://markdown-videos-api.jorgenkh.no/youtube/8tjWE0zpOA4)](https://youtu.be/8tjWE0zpOA4)
+
 ## Pipeline Components
 
 Components: <br>
