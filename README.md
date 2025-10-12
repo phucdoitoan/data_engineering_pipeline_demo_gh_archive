@@ -4,7 +4,7 @@
 
 ## Demo Video
 
-[![Demo Video](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FNp6QmmcgLCs)](https://youtu.be/5VSBTFh32kw)
+[![Watch the video](https://img.youtube.com/vi/5VSBTFh32kw/0.jpg)](https://youtu.be/5VSBTFh32kw)
 
 ## Pipeline Components
 
