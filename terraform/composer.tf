@@ -83,8 +83,8 @@ resource "google_composer_environment" "gh-composer-env" {
         count      = 1
       }
       web_server {
-        cpu        = 0.5 #1
-        memory_gb  = 2 #4
+        cpu        = 1 #0.5 #1
+        memory_gb  = 4 #2 #4
         storage_gb = 1
       }
       # phuc: increaase worker configure for more parallel and faster processing

@@ -1,5 +1,7 @@
 # Data Engineering Pipeline Demo with Github Archive Data
 
+![Data Pipeline Diagram](<images/data_pipeline_diagram.png>)
+
 ## Pipeline Components
 
 Components: <br>

@@ -9,13 +9,13 @@
 resource "google_storage_bucket_object" "dag_file" {
   name   = "dags/data_ingestion.py"
   bucket = google_storage_bucket.gh-composer-bucket.name
-  source = "./data_ingestion.py"
+  source = "../code/airflow/data_ingestion.py"
 }
 
 resource "google_storage_bucket_object" "pyspark_job_file" {
   name   = "code/pyspark_job.py"
   bucket = google_storage_bucket.gh-gcs-datalake-bucket.name
-  source = "./pyspark_job.py"
+  source = "../code/dataproc/pyspark_job.py"
 }
 
 # to upload a whole folder, use terraform provisioner such as 
