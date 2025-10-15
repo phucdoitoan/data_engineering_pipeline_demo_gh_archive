@@ -17,6 +17,9 @@ Components: <br>
 * Data Transformation Engine: DBT Cloud
 * Data Visualization / Analytics: Looker Studio
 
+## TODOs
+
+Re-organize README and add more detailed instructions for running the codes
 
 ## 1. Set-up
 
